@@ -9,7 +9,7 @@ const cognome = prompt('quale è il tuo cognome?');
 const colorePreferito = prompt('quale è il tuo colore preferito?');
 const eta = prompt('quanti anni hai?');
 
-const password = `<span class="red">${nome}${cognome}${colorePreferito}${eta}</span>`;
+const password = `${nome}${cognome}${colorePreferito}${eta}`;
 const fraseDaInserire =`La tua password generata automaticamente è: ` 
 
 const frase=document.getElementById('frase');
